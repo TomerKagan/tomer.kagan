@@ -51,3 +51,15 @@ nav {
       height: 35vh;
     }
   }
+
+  @keyframes changingBackgroundColor {
+    from {background-color: rgb(255, 0, 179);}
+    to {background-color: rgb(0, 255, 213);}
+  }
+  
+  #tomer{
+    color: pink;
+    animation-name: changingBackgroundColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite ;
+  }
