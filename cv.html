@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <script src="cv.js"></script>
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <h2>Send CV for a new job at Tomer's startup</h2>
+    </header>
+    <section>
+        <nav>
+          <ul>
+            <li><p>Mail: kagantom@post.bgu.ac.il</p></li>
+            <li><p>Phone Number: 0527800044</a></p>
+            <li><p>Address: Metsada 14, Be'er Sheva</a></p>
+          </ul>
+        </nav>
+        
+        <div id="tomer">
+
+          <form onsubmit="return validateForm()" name="cvForm" id="cvForm">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <p>Choose your favorite Web language:</p>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label></br></br>
+            <input type="submit" value="Submit">
+
+          </form> 
+        </div>
+      </section>
+      <footer>Thanks, Tomer</footer>
+</body>
+</html>
